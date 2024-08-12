@@ -1,14 +1,12 @@
 # E-commerce Product Recommendation System
 
 ## Dataset 
-<hr>
 I have used Amazon dataset on user ratings for electronic products, this dataset doesn't have any headers.<br>
 You can find the dataset here dataset(https://www.kaggle.com/datasets/vibivij/amazon-electronics-rating-datasetrecommendation/download?datasetVersionNumber=1)
 <br>
 In this project, I developed a robust recommendation system designed to enhance user experience in an e-commerce setting by providing personalized product recommendations. 
 
 ## Approach
-<hr>
 The system leverages two primary methodologies:
 <br>
 
@@ -24,6 +22,5 @@ Item-Based Collaborative Filtering: This method focuses on finding similarities 
 The hybrid model balances these two approaches by weighing their contributions, resulting in a more comprehensive recommendation system that takes into account both user preferences and product similarities.
 
 ## Implementation Highlights
-<hr>
 The system was evaluated using RMSE (Root Mean Square Error) to assess the accuracy of predictions.
 The model-based SVD approach provided a baseline for performance, while the hybrid method offered a more nuanced understanding of user preferences by integrating multiple perspectives.
